@@ -15,7 +15,7 @@ while i < numberOfProducts:
 i = 0
 
 while i < numberOfProducts:  
-    new_price = productPrice[i] * (1 - discount / 100)  
-    productNewPrice.append(new_price)  
+    newPrice = productPrice[i] * (1 - discount / 100)  
+    productNewPrice.append(newPrice)  
     print("O produto: {0} que custava {1:.2f}, custa agora apenas {2:.2f}".format(product[i], productPrice[i], productNewPrice[i]))
     i += 1
