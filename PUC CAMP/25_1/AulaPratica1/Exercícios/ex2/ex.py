@@ -1,5 +1,6 @@
-squareSide = 2
-squareArea = squareSide ** 2
-squarePerimeter = squareSide * 4
+Base = int(input("Base do triangulo"))
+Altura = int(input("Altura do triangulo"))
 
-print('The area and the perimeter of a square with side', squareSide, 'cm, are', squareArea,'cm^2 and', squarePerimeter, 'cm')
+Area = (Altura * Base) / 2
+
+print("The area of your triangle is: ",Area)

@@ -1,9 +1,6 @@
-divisor = 3
-dividend = 12
-quotient = dividend // divisor
-remnant = dividend % divisor
+s = int(input("Salário Atual: "))
+a = int(input("Percentual de Ajuste: "))
 
-if remnant != 0:
-    print('The result of the division of', dividend, 'by', divisor, 'is', quotient, 'and the remnant is', remnant)
-else:
-    print('The result of the division of', dividend, 'by', divisor, 'is', quotient)
+n = s + s * (a/100)
+
+print(n)
