@@ -12,7 +12,7 @@ def arc(t,r,angle):
     for i in range(n):
         t.fd(step_length)
         t.lt(step_angle)
-p = 20
+p = 9
 angle = 420/p
 r = 100 * p/10
 for i in range(p):
